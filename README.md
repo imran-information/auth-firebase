@@ -1,5 +1,7 @@
 Auth management
 
-privet Rout  , onAuthStateChanged , useContext
+- privet Rout, 
+- onAuthStateChanged , 
+- useContext
 
 
