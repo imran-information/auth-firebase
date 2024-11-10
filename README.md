@@ -1,4 +1,4 @@
-# React + Vite
+Auth management
 
 privet Rout  , onAuthStateChanged , useContext
 
