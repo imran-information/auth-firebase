@@ -5,6 +5,7 @@ import Login from "../pages/Login";
 import Register from "../pages/Register";
 import ListedItems from "../components/ListedItems";
 import PrivetRoute from "./PrivetRoute";
+import Profile from "../components/Profile";
 
 const router = createBrowserRouter([
     {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
             {
                 path: 'listed',
                 element: <PrivetRoute><ListedItems></ListedItems></PrivetRoute>
+            },
+            {
+                path: 'profile',
+                element: <PrivetRoute><Profile></Profile></PrivetRoute>
             }
         ]
     }
